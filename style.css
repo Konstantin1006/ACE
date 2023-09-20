@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  height: 200px;
+}
+.itemh1 {
+  width: 80vw;
+}
+.itemh1 h1 {
+  margin-left: 5vw;
+  margin-top: 4vw;
+  color: aliceblue;
+  font-size: 1.9vw;
+}
+.itemh2 {
+  display: flex;
+  width: 7vw;
+  justify-content: center;
+  align-items: center;
+}
+.itemh3 {
+  display: flex;
+  width: 13vw;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  /* height: %; */
+  width: 83%;
+}
+.logo2 {
+  width: 90%;
+  padding-right: 10px;
+}
+/* .body {
+  height: 200vh;
+} */
+.wrapper {
+  background-image: url(/img/фон.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center;
+  height: cover;
+  width: cover;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+}
+.item {
+  /* margin-top: 13vh; */
+  margin-bottom: 10vw;
+  justify-content: start;
+}
+.item1 {
+  width: 25vw;
+  margin-left: 2vw;
+  margin-right: 1vw;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5vw;
+}
+.item2 {
+  width: 50vw;
+  justify-content: start;
+  text-align: justify;
+  font-size: 1.7vw;
+}
+.item2 h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 2vw;
+}
+.item3 {
+  width: 25vw;
+}
+.img3 {
+  margin-top: 65vh;
+}
+.item20 {
+  font-size: 1.7vw;
+}
+.item20 a {
+  color: black;
+  font-size: 1.7vw;
+}
+.item20 a:hover {
+  text-decoration-line: underline;
+}
+
+.list_menu a {
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.list_menu li {
+  margin: 2vh 0.5vw;
+}
+.list_menu a:hover {
+  color: #8cc370;
+}
+.menu {
+  padding: 50vh, 10vh;
+
+  height: 50vh;
+}
+
+.menu .img3 {
+  margin-top: 65vh;
+}
+.footer {
+  /* margin-left: 45%; */
+  margin-bottom: 1wv;
+  font-size: 1vw;
+}
+.container1 {
+  height: 4vh;
+  width: 100%;
+}
+.sub {
+  margin-left: 45%;
+  margin-top: 20vw;
+}
+
+@media (max-width: 450px) {
+  .header {
+    height: 70px;
+  }
+  .itemh1 h1 {
+    margin-left: 8vw;
+    margin-top: 8vw;
+    color: aliceblue;
+    font-size: 1.9vw;
+  }
+  .item {
+    margin-bottom: cover;
+    margin-top: 6vw;
+  }
+  .item1 {
+    width: 25vw;
+  }
+  .item2 {
+    width: 60vw;
+    margin-top: 5vw;
+    font-size: 2.3vw;
+    margin-bottom: 20vw;
+  }
+  .item3 {
+    width: 15vw;
+  }
+  .img3 {
+    margin-top: 20vh;
+  }
+  .item20 {
+    font-size: 2.3vw;
+  }
+  .item20 a {
+    color: black;
+    font-size: 2.3vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .list_menu {
+    margin-top: -2vh;
+  }
+}
